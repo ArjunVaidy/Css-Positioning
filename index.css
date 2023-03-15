@@ -1,0 +1,60 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+header, footer {
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+
+.symbol {
+    font-size: 3rem;
+    position: fixed;
+    top:30%;
+    z-index: 1;
+    left: 10px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    font-size: 5rem;
+}
+/* The difference between position fixed vs sticky 
+    is that fixed always positions an element relative to the viewport, 
+    while sticky behaves like a regular element 
+    until it reaches the defined offset 
+    and then becomes fixed */
+footer {
+    position: sticky;
+    background-color: black;
+    bottom: 0;
+    width:100%;
+    font-size: 3rem;
+}
+
+
+
+
+
+
+
